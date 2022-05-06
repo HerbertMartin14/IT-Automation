@@ -13,7 +13,7 @@ namespace UltimateApp.Test
         [TestMethod]
         public void AddTest()
         {
-            int? retval = Calculator.calculate(2, 6, Operation.Add);
+            int? retval = Calculator.calculate(2, 3, Operation.Add);
             Assert.AreEqual(5, retval);
         }
     }
